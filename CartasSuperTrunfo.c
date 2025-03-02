@@ -11,23 +11,23 @@ int main(){
     printf("Insira a letra que representa o Estado: ");
     scanf(" %c", &estado); //O espaço antes do formato serve para o scanf ignorar os espaços em branco.
 
-    printf("Insira o Codigo da Carta: ");
-    scanf(" %s", &codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git, porem o codigo continua funcionando.
+    printf("Insira o Código da Carta: ");
+    scanf(" %s", &codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git.
 
     printf("Insira o Nome da Cidade: ");
     scanf(" %s", &nome_cidade);
 
-    printf("Insira o Numero de Habitantes: ");
+    printf("Insira o Número de Habitantes: ");
     scanf(" %d", &populacao);
 
-    printf("Insira a Area da Cidade: ");
+    printf("Insira a Área da Cidade: ");
     scanf(" %f", &area);
 
     printf("Insira o PIB da Cidade: ");
     scanf(" %f", &pib);
    
 
-    printf("Insira quantos Pontos Turisticos existem na Cidade: ");
+    printf("Insira quantos Pontos Turísticos existem na Cidade: ");
     scanf(" %d", &pontos_turisticos);
  
 
@@ -38,22 +38,22 @@ int main(){
     printf("Insira a letra que representa o Estado: ");
     scanf(" %c", &estado2);
 
-    printf("Insira o Codigo da Carta: ");
+    printf("Insira o Código da Carta: ");
     scanf(" %s", &codigo_carta2);
 
     printf("Insira o Nome da Cidade: ");
     scanf(" %s", &nome_cidade2);
 
-    printf("Insira o Numero de Habitantes: ");
+    printf("Insira o Número de Habitantes: ");
     scanf(" %d", &populacao2);
 
-    printf("Insira a Area da Cidade: ");
+    printf("Insira a Área da Cidade: ");
     scanf(" %f", &area2);
 
     printf("Insira o PIB da Cidade: ");
     scanf(" %f", &pib2);
     
-    printf("Insira quantos Pontos Turisticos existem na Cidade: ");
+    printf("Insira quantos Pontos Turísticos existem na Cidade: ");
     scanf(" %d", &pontos_turisticos2);
    
 
