@@ -12,7 +12,7 @@ int main(){
     scanf(" %c", &estado); //O espaço antes do formato serve para o scanf ignorar os espaços em branco.
 
     printf("Insira o Codigo da Carta: ");
-    scanf(" %s", &codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git.
+    scanf(" %s", &codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git, porem o codigo continua funcionando.
 
     printf("Insira o Nome da Cidade: ");
     scanf(" %s", &nome_cidade);
@@ -58,23 +58,23 @@ int main(){
    
 
 
-    printf("\nCarta 1 \n");
+    printf("\nCarta 1: \n");
     printf("Estado: %c\n", estado);
     printf("Codigo: %s\n", codigo_carta);
     printf("Nome da Cidade: %s\n", nome_cidade);
-    printf("Populacao: %d\n", populacao);
-    printf("Area: %.2f quilometros quadrados\n", area);
-    printf("PIB: %.2f bilhoes de reais\n", pib);
-    printf("Numero de Pontos Turisticos: %d\n", pontos_turisticos);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f km²\n", area);
+    printf("PIB: %.2f bilhões de reais\n", pib);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos);
 
-    printf("\nCarta 2 \n");
+    printf("\nCarta 2: \n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo_carta2);
     printf("Nome da Cidade: %s\n", nome_cidade2);
-    printf("Populacao: %d\n", populacao2);
-    printf("Area: %.2f quilometros quadrados\n", area2);
-    printf("PIB: %.2f bilhoes de reais\n", pib2);
-    printf("Numero de Pontos Turisticos: %d\n", pontos_turisticos2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontos_turisticos2);
 
     return 0;
 }
