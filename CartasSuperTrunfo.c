@@ -12,7 +12,7 @@ int main(){
     scanf(" %c", &estado); //O espaço antes do formato serve para o scanf ignorar os espaços em branco.
 
     printf("Insira o Codigo da Carta: ");
-    scanf(" %s", &codigo_carta);
+    scanf(" %s", &codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git.
 
     printf("Insira o Nome da Cidade: ");
     scanf(" %s", &nome_cidade);
