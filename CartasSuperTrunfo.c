@@ -15,7 +15,7 @@ int main(){
     printf("Insira a letra que representa o Estado: ");
     scanf(" %c", &estado); 
     printf("Insira o Código da Carta: ");
-    scanf("%s", codigo_carta); //Por algum motivo esse erro não aparece no VSCode local, apenas aqui no Git.
+    scanf("%s", codigo_carta); 
     printf("Insira o Nome da Cidade: ");
     scanf("%s", nome_cidade);
     printf("Insira o Número de Habitantes: ");
@@ -83,17 +83,32 @@ int main(){
     printf("Super Poder: %.2f\n", Spoder2);
 
 
-    //comparacao
+    //comparacao 
 
-    printf("\nComparacao de Cartas:\n");
+    /*printf("\nComparacao de Cartas:\n");
     printf("Populacao: %d\n", populacao > populacao2);
     printf("Area: %d\n", area > area2);
     printf("PIB: %d\n", pib > pib2);
     printf("Pontos Turisticos: %d\n", pontos_turisticos > pontos_turisticos2);
     printf("Densidade Populacional: %d\n", densidade < densidade2);
     printf("PIB per Capita: %d\n", pib_capita > pib_capita2);
-    printf("Super Poder: %d\n", Spoder1 > Spoder2);
+    printf("Super Poder: %d\n", Spoder1 > Spoder2);*/
+
+    //comparacao com estrutura de decisao
+
+    printf("\nComparacao de Cartas (Atributo: Area):\n");
+    printf("Carta 1 - %s: %.2fkm²\n", nome_cidade, area);
+    printf("Carta 2 - %s: %.2fkm²\n", nome_cidade2, area2);
+
+    if (area > area2){
+        printf("Carta 1 VENCEU");
+    }
+    else{
+        printf("Carta 2 VENCEU");
+    }
 
 
-    return 0;
+
+
+
 }
